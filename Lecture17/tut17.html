@@ -1,0 +1,100 @@
+<!-- CSS Position Property: Static, Relative, Absolute, Fixed, and Sticky -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid black;
+        }
+        img{
+            margin: 10px;
+        }
+        .image2{
+            /* position: relative;
+            top: 200px;
+            left: 200px; */
+            /* position: absolute; */
+            /* top: 200px; */
+        }
+        .container{
+            position: relative;
+            background-color: aqua;
+            height: 8000px;
+        }
+        .image4{
+            position: fixed;
+        }
+        .image3{
+            position: sticky;
+            top: 100px;
+        }
+        .box{
+            background-color: yellow;
+            height: 5000px;
+        }
+    </style>
+</head>
+<body>
+    
+<div class="container">
+
+   <img
+    class="image1"
+    src="./Aventador.jpeg"
+    alt="1st image" 
+    width="300px"
+    height="300px"
+    />
+   <img
+   class="image2"
+    src="./Mc Laren P1.jpeg"
+    alt="2nd image" 
+    width="300px"
+    height="300px"
+    />
+   <img
+   class="image3"
+    src="./Rolls Royce .jpeg"
+    alt="3rd image" 
+    width="300px"
+    height="300px"
+    />
+   <img
+   class="image4"
+    src="./Sweptail.jpeg"
+    alt="4th image" 
+    width="300px"
+    height="300px"
+    />
+</div>
+
+<div class="box">
+
+</div>
+    
+</body>
+</html>
+
+<!-- CSS POSITION PROPERTY ( By Default it is STATIC ) 
+
+Relative 
+1. It should be in a cureent window.
+2. Gap is maintained in this.
+3. You can use Top , Bottom , Right , Left properties. 
+
+Absolute 
+1. Relative to its closest position ancestor / parent. 
+2. It does not maintain Gap.
+3. You can use Top , Bottom , Right , Left properties. 
+
+Sticky
+1. IT should be sticky when it is in his parent class (related to parent container ).
+2. You can use Top , Bottom , Right , Left properties. 
+
+Fixed 
+1. It should be fixed in whole the page / containers.
+2. You can use Top , Bottom , Right , Left properties.   -->
+

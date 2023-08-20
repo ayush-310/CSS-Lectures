@@ -1,0 +1,81 @@
+                                                                        <!-- Display Property in Depth -->
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <style>
+   
+           *{
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+               /* if we add extra padding , margin on content or border , the original length and height will not be affected */
+           }
+           /* Inline Element  */
+           span{
+               border: 1px solid green;
+               width: 300px;
+               height: 300px;
+               /* Custom width height is not applicable */
+               margin: 10px;  /* only in horizontal direction */
+               padding: 15px;
+               /* display: block; Converts inline element to block element */
+               display: inline-block; /*It is inline element but properties of all block elemets is applicable*/
+           }
+   
+           /* Block element */
+           div{
+               border: 1px solid black;
+               width: 300px;
+               height: 300px;
+               margin: 20px;
+               padding: 30px;
+               display: inline; /* Converts block element to inline element*/
+           }
+       </style>
+   </head>
+   <body>
+       <!-- <div>
+           Welcome to codehelp 
+       </div> -->
+       <!-- <div>
+         Welcome to codehelp 2.0
+       </div> -->
+      
+       <span> Welcome to Web development</span>
+       <span> Welcome to Web development</span>
+   </body>
+   </html>
+   
+   <!-- Block Elements:- 
+       1)takes new line 
+       2)takes space from left to right
+       3)custom width and heigth is applicable
+       4)custom MARGIN and PADDING is applicable
+       5)display: inline; /* Converts block element to inline element*/
+   <nav> , <ol> , <ul> , <table> , <p> , <section> , < main> , < footer> , <hr> , <div> , <article> , < header>
+   
+   
+   Inline Elements:-
+    1)takes new line 
+       1)takes same line 
+       2) space depend on content width and heigth 
+       3)custom width and heigth is NOT applicable
+       4)only horizontal  MARGIN and custom  PADDING is applicable
+       5)display: block; /* Converts inline element to block element*/
+   <a>, <br> , < input >, < label> ,<strong>,< sup> ,< button>,<em>,< select>,< span>, <textarea> ,< img>. -->
+   
+   
+   
+   
+    <!-- A generic container element used to group other HTML elements.
+       2. <p>: Represents a paragraph of text.
+       3. <h1> to <h6>: Heading elements used to define different levels of headings.
+       4. <ul>: Represents an unordered list.
+       5. <ol>: Represents an ordered list.
+       6. <li>: Represents a list item within an unordered or ordered list.
+       7. <table>: Represents tabular data.
+       8. <form>: Represents a form for user input.
+       9. <header>, <footer>, <nav>, <article>, <section>: Semantic elements used for structuring different parts of a webpage. -->

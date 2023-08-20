@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* height: 80px; */
+    width: 450px;
+    padding: 15px;
+    margin: 15px;
+    
+}
+ 
+#firstPara{
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 5px;
+    /* height: 50px; */
+    width: 450px;
+    padding: 60px;
+    margin: 15px;
+
+
+
+}
+#secondPara{
+    background-color: rgb(141, 144, 208);
+    border: 2px solid black;
+    border-radius: 5px;
+    /* height: 50px; */
+    width: 450px;
+    /* padding: 60px; */
+    /* padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 40px; */
+    /* padding: 15px 25px 35px 45px; top left bottom right */
+    padding: 40px 50px; /*top-bottom  left-right */ 
+    margin: 15px;
+    /* margin has also similar propeerties lie padding  */
+
+
+
+}
+#thirdPara{
+    background-color: rgb(221, 66, 154);
+    border: 2px solid black;
+    border-radius: 5px;
+    /* height: 50px; */
+    width: 450px;
+    padding: 15px;
+    margin: 15px;
+
+}

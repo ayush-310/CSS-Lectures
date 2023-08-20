@@ -1,0 +1,84 @@
+ <!-- Unlocking the Power of px, %, vw, vh, em, and rem -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        /* .box{
+            border: 2px solid red;
+            width: 50%; /*--> relative to its parents size that is box*/
+            /* margin-bottom: 50px;  */
+        /* } */
+        .parent{
+            border: 2px solid black;
+            background-color: yellow;
+            width: 50%;
+        } */
+        .child{
+            border: 2px solid rgb(8, 77, 237);
+            background-color: rgb(190, 105, 226);
+            width: 20%; /*--> relative to its parents size that is parent*/
+        }
+        /* .container{
+            border: 2px solid red;
+            background-color: cadetblue;
+            height: 100vh;
+            width: 50vw;
+        } */
+        .box1{
+            border: 2px solid black;
+            font-size: 100px;
+        }
+        /* .container{
+            font-size: 10px;
+        }
+        .box{
+            font-size: 10em;
+            /* size is relative to its parent = 10em x 10px = 100px  */
+        /* } */
+        
+        .firstpara{
+            border: 2px solid black;
+            font-size: 5rem;
+            /* rem is relative to root element that is HTML . by default it is 16px 
+            5rem =  5 x 16px = 80px  */
+        }
+    </style>
+ </head>
+ <body>
+    <!-- <div class="box">
+        Welcome to Codehelp
+    </div>
+
+    <div class="parent">
+        <div class="child">
+            CHILD
+        </div>
+    </div> -->
+<!-- 
+    <div class="container">
+        Welcome to Codehelp
+    </div> -->
+
+
+    <!-- <div class="box1">
+        Welcome to Codehelp
+    </div> -->
+
+    <!-- <div class="container">
+        <div class="box">
+            Welcome to codeHelp 
+        </div>
+    </div> -->
+
+    <p class="firstpara">
+        Lorem ipsum dolor sit amet.
+    </p>
+ </body>
+ </html>

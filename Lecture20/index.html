@@ -1,0 +1,90 @@
+<!-- Complete FLEXBOX in 1 Video || Episode - 20 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: yellow;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            height: 1400px;
+            /* width: 200px; */
+
+
+
+            display: flex; /* by default row direction*/
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+
+
+
+            /* flex-wrap: nowrap ; */
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse; */
+
+
+            /* Adjustion depends on flex - direction */
+          /*  justify-content: center;  /*flex - direction= row*/
+          /* justify-content: start;  /*flex - direction= row*/
+          /*  justify-content: end;  /*flex - direction= row*/
+          /* justify-content: space-between;  /*flex - direction= row*/
+          /*  justify-content: space-around;  /*flex - direction= row*/
+          /*  justify-content: space-evenly;  /*flex - direction= row*/
+
+            /* Depends on cross-axis = vertical */
+            /* align-items: center; */
+            /* align-items: start; */
+            /* align-items: end; */
+            /* align-items: stretch; */
+
+            /* when we use wrap , to avoid spacing between lines we use this  */
+            /* align-content: center;
+            align-content: end;
+            align-content: start; */
+
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid red;
+            margin: 2px;
+            padding: 2px;
+           
+        }
+        #box1{
+            background-color: aqua;
+            /* order: 500;used to set sequence  */
+            /* flex-shrink: 4; will shrink 4 time s faster */
+            align-self: end;
+        }
+        #box2{
+            background-color: darkblue;
+            /* flex-grow: 1; takes all remaining space equally */
+        }
+        #box3{
+            background-color: forestgreen;
+            /* flex-grow: 1; */
+        }
+        #box4{
+            background-color: sandybrown;
+            /* flex-grow: 1; */
+            flex-basis: 400px; 
+            /* will adjust width  */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box" id="box1">Box 1</div>
+        <div class="box" id="box2">Box 2</div>
+        <div class="box" id="box3">Box 3</div>
+        <div class="box" id="box4">Box 4</div>
+    </div>
+</body>
+</html>
